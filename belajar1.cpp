@@ -30,7 +30,7 @@ int main(int argc, char **argv){
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(100,100);
     glutInitWindowSize(640,480);
-    glutCreateWindow("Tugas Titik");
+    glutCreateWindow("Tugas Titik | Muhammad Ricky Aryansah");
     glClearColor(0.0,0.0,0.0,0.0);
     gluOrtho2D(0,640.,-240.,240.0);
     glutIdleFunc(display);
