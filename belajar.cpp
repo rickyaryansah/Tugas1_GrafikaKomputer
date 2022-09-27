@@ -24,7 +24,7 @@ int main(int argc, char **argv){
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(100,100);
     glutInitWindowSize(640,480);
-    glutCreateWindow("Tugas Polygon");
+    glutCreateWindow("Tugas Polygon | Muhammad Ricky Aryansah");
     glClearColor(0.0,0.0,0.0,0.0);
     glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
     glutIdleFunc(display);
